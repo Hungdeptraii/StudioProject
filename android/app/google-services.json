@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "80028729182",
+    "project_id": "cmmc-6aad1",
+    "storage_bucket": "cmmc-6aad1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80028729182:android:a9b68b22fb295c7bc619cf",
+        "android_client_info": {
+          "package_name": "com.example.cmc_store"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKbW0cj6bBd-ggDxjbvVyP0DzUDcHmhaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
