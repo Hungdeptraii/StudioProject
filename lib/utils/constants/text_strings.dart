@@ -33,8 +33,9 @@ class CTexts {
   static const String orSignInWith = "hoặc đăng nhập bằng";
   static const String orSignUpWith = "hoặc đăng ký bằng";
   static const String iAgreeTo = "Tôi đồng ý với";
+  static const String and = "và";
   static const String privacyPolicy = "Chính sách bảo mật";
-  static const String termsOfUse = "Điều khoản sử dụng";
+  static const String termsOfUse = "Điều khoản";
   static const String verificationCode = "Mã xác minh";
   static const String resendEmail = "Gửi lại email";
   static const String resendEmailIn = "Gửi lại email sau";

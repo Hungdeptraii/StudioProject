@@ -1,8 +1,8 @@
 import 'package:cmc_store/features/authentication/controllers.onboarding/onboarding_controller.dart';
-import 'package:cmc_store/features/authentication/screens/widgets/onboarding_dot_navigation.dart';
-import 'package:cmc_store/features/authentication/screens/widgets/onboarding_next_button.dart';
-import 'package:cmc_store/features/authentication/screens/widgets/onboarding_page.dart';
-import 'package:cmc_store/features/authentication/screens/widgets/onboarding_skip.dart';
+import 'package:cmc_store/features/authentication/screens/onboarding/widgets/onboarding_dot_navigation.dart';
+import 'package:cmc_store/features/authentication/screens/onboarding/widgets/onboarding_next_button.dart';
+import 'package:cmc_store/features/authentication/screens/onboarding/widgets/onboarding_page.dart';
+import 'package:cmc_store/features/authentication/screens/onboarding/widgets/onboarding_skip.dart';
 import 'package:flutter/material.dart';
 import 'package:cmc_store/utils/constants/image_string.dart';
 import 'package:cmc_store/utils/constants/text_strings.dart';

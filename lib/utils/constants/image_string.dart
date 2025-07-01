@@ -5,7 +5,7 @@ class CImages {
   static const String lightAppLogo = "assets/logos/cmc-store-splash-logo-black.png";
 
   static const String google = "assets/logos/google-icon.png";
-  static const String facebook = "assets/logos/facebook-icon.png";
+  static const String facebook = "assets/logos/pngtree-facebook-icon-png-image_9015416.png";
 
   static const String onBoardingImage1 = "assets/images/on_boarding_images/Animation - 1751268476680.gif";
   static const String onBoardingImage2 = "assets/images/on_boarding_images/Animation - 1751290212273.gif";

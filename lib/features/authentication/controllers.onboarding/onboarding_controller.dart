@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:get_storage/get_storage.dart';
+
+
+import '../screens/login/login.dart';
 
 class  OnBoardingController extends GetxController {
   static OnBoardingController get instance => Get.find();
@@ -17,7 +19,7 @@ class  OnBoardingController extends GetxController {
   /// Cập nhật chỉ mục hiện tại và chuyển đến trang tiếp theo
   void  nextPage() {
     if(currentPageIndex.value == 2){
-      //Get.to(LoginScreen());
+      Get.offAll(const LoginScreen());
     }else {
       int page = currentPageIndex.value + 1;
       pageController.jumpToPage(page);
