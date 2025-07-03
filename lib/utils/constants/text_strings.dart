@@ -4,6 +4,8 @@ class CTexts {
   static const String submit = "Gửi";
   static const String appName = "CMC";
   static const String cContinue = "Tiếp tục";
+  static const String done = "Xong";
+
 
 //-- Onboarding texts
   static const String onBoardingTitle1 = "Chọn sản phẩm của bạn";
@@ -16,7 +18,7 @@ class CTexts {
 
 //-- Home
   static const String homeAppbarTitle = "Một ngày tuyệt vời để mua sắm";
-  static const String homeAppbarSubTitle = "Taimoor Sikander";
+  static const String homeAppbarSubTitle = "CMC Store";
 
 // --- Authentication form text
   static const String firstName = "Họ";

@@ -1,6 +1,6 @@
 import 'package:cmc_store/common/widgets/login_signup/form_divider.dart';
 import 'package:cmc_store/common/widgets/login_signup/social_buttons.dart';
-import 'package:cmc_store/features/authentication/screens/signup/widgets/CSignupForm.dart';
+import 'package:cmc_store/features/authentication/screens/signup/widgets/signup_form.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../../utils/constants/sizes.dart';

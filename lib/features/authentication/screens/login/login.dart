@@ -2,7 +2,7 @@ import 'package:cmc_store/features/authentication/screens/login/widgets/login_fo
 import 'package:cmc_store/features/authentication/screens/login/widgets/login_header.dart';
 
 
-import 'package:cmc_store/utils/helpers/helper_functions.dart';
+
 import 'package:flutter/material.dart';
 import 'package:cmc_store/common/styles/spacing_styles.dart';
 import 'package:get/get.dart';

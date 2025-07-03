@@ -1,4 +1,6 @@
+import 'package:cmc_store/features/authentication/screens/password_configuration/forget_password.dart';
 import 'package:cmc_store/features/authentication/screens/signup/signup.dart';
+import 'package:cmc_store/navigation_menu.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
@@ -78,7 +80,7 @@ class _CLoginFormState extends State<CLoginForm> {
 
                 /// Forgot Password
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () => Get.to(() => const ForgetPassword()),
                   child: const Text(CTexts.forgetPassword),
                 ),
               ],
@@ -89,7 +91,7 @@ class _CLoginFormState extends State<CLoginForm> {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () => Get.to(() => NavigationMenu()),
                 child: const Text(CTexts.signIn),
               ),
             ),

@@ -53,7 +53,7 @@ class CDeviceUtils {
     return kBottomNavigationBarHeight;
   }
 
-  static double getAppBarHeigt() {
+  static double getAppBarHeight() {
     return kToolbarHeight;
   }
 
