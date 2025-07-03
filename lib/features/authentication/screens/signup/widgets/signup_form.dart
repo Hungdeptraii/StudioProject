@@ -1,11 +1,12 @@
+import 'package:cmc_store/features/authentication/screens/signup/verify_email.dart';
 import 'package:cmc_store/features/authentication/screens/signup/widgets/terms_condition_checkbox.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
-import '../../../../../utils/constants/colors.dart';
 import '../../../../../utils/constants/sizes.dart';
 import '../../../../../utils/constants/text_strings.dart';
-import '../../../../../utils/helpers/helper_functions.dart';
+
 
 
 class CSignupForm extends StatefulWidget {
@@ -17,11 +18,10 @@ class CSignupForm extends StatefulWidget {
 
 class _CSignupFormState extends State<CSignupForm> {
   bool _obscureText = true;
-  bool _isAgreed = false;
+
 
   @override
   Widget build(BuildContext context) {
-    final dark = CHelperFunctions.isDarkMode(context);
     return Form(
       child: Column(
         children: [
@@ -96,7 +96,7 @@ class _CSignupFormState extends State<CSignupForm> {
           ///Sign Up Button
           SizedBox(
               width: double.infinity,
-              child: ElevatedButton(onPressed: (){}, child: const Text(CTexts.createAccount))
+              child: ElevatedButton(onPressed: () => Get.to(() => const VerifyEmailScreen()), child: const Text(CTexts.createAccount))
           ),
 
         ],
