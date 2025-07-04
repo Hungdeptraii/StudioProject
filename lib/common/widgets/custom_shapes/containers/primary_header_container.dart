@@ -27,22 +27,13 @@ class CPrimaryHeaderContainer extends StatelessWidget {
                 top: -150,
                 right: -250,
                 child: CCirculatorContainer(
-                  backgroundColor: CColors.textWhite.withOpacity(0.1),
-                ),
-              ),
+                  backgroundColor: CColors.textWhite.withOpacity(0.1))),
               Positioned(
                 top: 100,
                 right: -300,
                 child: CCirculatorContainer(
-                  backgroundColor: CColors.textWhite.withOpacity(0.1),
-                ),
-              ),
-
-              // ✅ Nội dung bạn truyền từ HomeScreen
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
-                child: SafeArea(child: child),
-              ),
+                  backgroundColor: CColors.textWhite.withOpacity(0.1))),
+              child,
             ],
           ),
         ),
