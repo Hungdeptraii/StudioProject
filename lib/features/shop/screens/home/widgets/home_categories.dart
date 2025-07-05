@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../../../common/widgets/image_text_widgets/vertical_image_text.dart';
-import '../../../../utils/constants/image_string.dart';
-
+import '../../../../../common/widgets/image_text_widgets/vertical_image_text.dart';
+import '../../../../../utils/constants/image_string.dart';
 class CHomeCategories extends StatelessWidget {
   const CHomeCategories({
     super.key,
