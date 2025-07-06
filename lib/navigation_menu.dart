@@ -1,4 +1,6 @@
 import 'package:cmc_store/features/shop/screens/home.dart';
+import 'package:cmc_store/utils/constants/colors.dart';
+import 'package:cmc_store/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
@@ -9,14 +11,16 @@ class NavigationMenu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final controller = Get.put(NavigationController());
+    final darkMode = CHelperFunctions.isDarkMode(context);
 
     return Scaffold(
       bottomNavigationBar: Obx(
             () => NavigationBar(
           height: 80,
           selectedIndex: controller.selectedIndex.value,
-          backgroundColor: Colors.white,
           onDestinationSelected: (index) => controller.selectedIndex.value = index,
+          backgroundColor: darkMode ? CColors.black : Colors.white,
+          indicatorColor: darkMode ? CColors.white.withOpacity(0.1) : CColors.black.withOpacity(0.1),
           destinations: const [
             NavigationDestination(icon: Icon(Iconsax.home), label: 'Home'),
             NavigationDestination(icon: Icon(Iconsax.shop), label: 'Store'),

@@ -29,4 +29,8 @@ class CImages {
   static const String promoBanner1 = "assets/images/banner/chickenbanner.jpg";
   static const String promoBanner2 = "assets/images/banner/bannerburger.png";
   static const String promoBanner3 = "assets/images/banner/spaghettibanner.png";
+
+  //products
+  static const  String productImage1 = "assets/images/products/burgerfood.png";
+  static const  String productImage2 = "assets/images/products/burger.jpg";
 }

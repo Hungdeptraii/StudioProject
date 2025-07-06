@@ -1,9 +1,11 @@
 
+import 'package:cmc_store/common/widgets/products/products_cards/product_card_vertical.dart';
 import 'package:cmc_store/utils/constants/image_string.dart';
 import 'package:flutter/material.dart';
 
 import '../../../common/widgets/custom_shapes/containers/primary_header_container.dart';
 import '../../../common/widgets/custom_shapes/containers/search_container.dart';
+import '../../../common/widgets/layouts/grid_layout.dart';
 import '../../../common/widgets/texts/section_heading.dart';
 import '../../../utils/constants/sizes.dart';
 import 'home/widgets/home_appbar.dart';
@@ -52,8 +54,16 @@ class HomeScreen extends StatelessWidget {
             ///Body
             Padding(
                 padding: const EdgeInsets.all(CSizes.defaultSpace),
-                child: CPromoSlider(banners: [CImages.promoBanner1, CImages.promoBanner2, CImages.promoBanner3],),
-            )
+                child: Column(
+                  children: [
+                    CPromoSlider(banners: [CImages.promoBanner1, CImages.promoBanner2, CImages.promoBanner3]),
+                    SizedBox(height: CSizes.spaceBtwSections),
+                    
+                    
+                    CGridLayout(itemCount: 4, itemBuilder: (_, index) => const CProductCardVertical()),
+                  ],
+                )
+            ),
         
           ],
         ),
@@ -62,6 +72,8 @@ class HomeScreen extends StatelessWidget {
 
   }
 }
+
+
 
 
 
