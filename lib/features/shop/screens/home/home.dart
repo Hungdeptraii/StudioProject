@@ -39,7 +39,7 @@ class HomeScreen extends StatelessWidget {
                         children: [
 
                           ///Heading
-                          CSectionHeading(title: 'Sản phẩm nổi bật', showActionButton: false),
+                          CSectionHeading(title: 'Sản phẩm nổi bật', onPressed: (){}),
                           const SizedBox(height: CSizes.spaceBtwItems),
 
                           ///Categories
