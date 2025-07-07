@@ -37,7 +37,7 @@ class CProductCardVertical extends StatelessWidget {
               backgroundColor: dark ? CColors.dark : CColors.light,
               child: Stack(
                 children: [
-                  CRoundedImage(imageUrl: CImages.productImage2, applyImageRadius: true),
+                 const CRoundedImage(imageUrl: CImages.productImage2, applyImageRadius: true),
                   
                   Positioned(
                     top: 12,
@@ -76,31 +76,36 @@ class CProductCardVertical extends StatelessWidget {
                   ),
       
       
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      ///Price
-                      const CProductPriceText(price: '3.5'),
-                      Container(
-                        decoration: const BoxDecoration(
-                          color: CColors.dark,
-                          borderRadius: BorderRadius.only(
-                            topLeft: Radius.circular(CSizes.cardRadiusMd),
-                            bottomRight: Radius.circular(CSizes.productImageRadius),
-                          )
-                        ),
-                        child: SizedBox(
-                          width: CSizes.iconLg * 1.2,
-                          height: CSizes.iconLg * 1.2,
-                          child: Center(child:  Icon(Iconsax.add, color: CColors.white)),
-                        )
-                      ),
-      
-      
-                    ],
-                  )
+
                 ],
               ),
+            ),
+
+            const Spacer(),
+
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                ///Price
+                const Padding(
+                  padding:  EdgeInsets.only(left: CSizes.sm),
+                  child:  CProductPriceText(price: '3.5'),
+                ),
+                Container(
+                    decoration: const BoxDecoration(
+                        color: CColors.dark,
+                        borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(CSizes.cardRadiusMd),
+                          bottomRight: Radius.circular(CSizes.productImageRadius),
+                        )
+                    ),
+                    child: SizedBox(
+                      width: CSizes.iconLg * 1.2,
+                      height: CSizes.iconLg * 1.2,
+                      child: Center(child:  Icon(Iconsax.add, color: CColors.white)),
+                    )
+                ),
+              ],
             )
           ],
         ),

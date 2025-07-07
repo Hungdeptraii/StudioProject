@@ -22,7 +22,7 @@ class CHomeAppBar extends StatelessWidget {
         ],
       ),
       actions: [
-        CCartCounterIcon(onPressed: () {  }, iconColor: CColors.white)
+        CCartCounterIcon(onPressed: () { }, iconColor: CColors.white)
       ],
     );
   }

@@ -3,14 +3,14 @@ import 'package:cmc_store/common/widgets/products/products_cards/product_card_ve
 import 'package:cmc_store/utils/constants/image_string.dart';
 import 'package:flutter/material.dart';
 
-import '../../../common/widgets/custom_shapes/containers/primary_header_container.dart';
-import '../../../common/widgets/custom_shapes/containers/search_container.dart';
-import '../../../common/widgets/layouts/grid_layout.dart';
-import '../../../common/widgets/texts/section_heading.dart';
-import '../../../utils/constants/sizes.dart';
-import 'home/widgets/home_appbar.dart';
-import 'home/widgets/home_categories.dart';
-import 'home/widgets/promo_slider.dart';
+import '../../../../common/widgets/custom_shapes/containers/primary_header_container.dart';
+import '../../../../common/widgets/custom_shapes/containers/search_container.dart';
+import '../../../../common/widgets/layouts/grid_layout.dart';
+import '../../../../common/widgets/texts/section_heading.dart';
+import '../../../../utils/constants/sizes.dart';
+import 'widgets/home_appbar.dart';
+import 'widgets/home_categories.dart';
+import 'widgets/promo_slider.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -39,7 +39,7 @@ class HomeScreen extends StatelessWidget {
                         children: [
 
                           ///Heading
-                          CSectionHeading(title: 'Sản phẩm nổi bật', onPressed: (){}),
+                          CSectionHeading(title: 'Sản phẩm nổi bật', showActionButton: false),
                           const SizedBox(height: CSizes.spaceBtwItems),
 
                           ///Categories
