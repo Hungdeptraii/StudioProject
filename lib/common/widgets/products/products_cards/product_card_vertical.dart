@@ -11,6 +11,7 @@ import '../../../../utils/constants/colors.dart';
 import '../../../../utils/constants/image_string.dart';
 import '../../../styles/shadows.dart';
 import '../../icons/c_circular_icon.dart';
+import '../../texts/c_brand_title_text_with_verified_icon.dart';
 
 class CProductCardVertical extends StatelessWidget {
   const CProductCardVertical ({super.key});
@@ -67,16 +68,7 @@ class CProductCardVertical extends StatelessWidget {
                 children: [
                   const CProductTitleText(title: 'HamBurger', smallSize: true),
                   const SizedBox(height: CSizes.spaceBtwItems / 2),
-                  Row(
-                    children: [
-                      Text('Nhà hàng CMC', overflow: TextOverflow.ellipsis, maxLines: 1, style: Theme.of(context).textTheme.labelMedium),
-                      const SizedBox(width: CSizes.xs),
-                      Icon(Iconsax.verify5, color: CColors.primary, size: CSizes.iconXs),
-                    ],
-                  ),
-      
-      
-
+                  CBrandTitleWithVerifiedIcon(title: 'Nhà Hàng CMC'),
                 ],
               ),
             ),

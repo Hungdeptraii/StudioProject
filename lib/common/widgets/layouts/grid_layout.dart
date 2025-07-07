@@ -8,12 +8,12 @@ class CGridLayout extends StatelessWidget {
     super.key,
     required this.itemCount,
     required this.itemBuilder,
-    this.maxAxisExtent = 288,
+    this.mainAxisExtent = 288,
 
   });
 
   final int itemCount;
-  final double? maxAxisExtent;
+  final double? mainAxisExtent;
   final Widget? Function(BuildContext, int) itemBuilder;
 
   @override
@@ -27,7 +27,7 @@ class CGridLayout extends StatelessWidget {
         crossAxisCount: 2,
         mainAxisSpacing: CSizes.girdViewSpacing,
         crossAxisSpacing: CSizes.girdViewSpacing,
-        mainAxisExtent: maxAxisExtent,
+        mainAxisExtent: mainAxisExtent,
       ),
       itemBuilder: itemBuilder,
     );

@@ -30,7 +30,7 @@ class CSearchContainer extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: CSizes.defaultSpace),
+        padding: padding,
         child: Container(
           width: CDeviceUtils.getScreenWidth(context),
           padding: const EdgeInsets.all(CSizes.md),

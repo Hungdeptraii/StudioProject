@@ -39,7 +39,7 @@ class HomeScreen extends StatelessWidget {
                         children: [
 
                           ///Heading
-                          CSectionHeading(title: 'Sản phẩm nổi bật', showActionButton: false),
+                          CSectionHeading(title: 'Danh mục', showActionButton: false),
                           const SizedBox(height: CSizes.spaceBtwItems),
 
                           ///Categories
@@ -59,6 +59,8 @@ class HomeScreen extends StatelessWidget {
                     CPromoSlider(banners: [CImages.promoBanner1, CImages.promoBanner2, CImages.promoBanner3]),
                     SizedBox(height: CSizes.spaceBtwSections),
                     
+                    CSectionHeading(title: 'Sản phẩm nổi bật', onPressed: (){}),
+                    const SizedBox(height: CSizes.spaceBtwItems),
                     
                     CGridLayout(itemCount: 4, itemBuilder: (_, index) => const CProductCardVertical()),
                   ],
