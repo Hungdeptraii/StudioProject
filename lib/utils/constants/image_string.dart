@@ -33,4 +33,7 @@ class CImages {
   //products
   static const  String productImage1 = "assets/images/products/burgerfood.png";
   static const  String productImage2 = "assets/images/products/burger.jpg";
+  static const  String productImage3 = "assets/images/products/img.png";
+
+
 }
