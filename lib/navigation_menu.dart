@@ -1,11 +1,13 @@
+import 'package:cmc_store/features/personalization/screen/settings/settings.dart';
 import 'package:cmc_store/features/shop/screens/home/home.dart';
+import 'package:cmc_store/features/shop/screens/wishlist/wishlist.dart';
 import 'package:cmc_store/utils/constants/colors.dart';
 import 'package:cmc_store/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
-import 'features/shop/screens/store/menu.dart';
+import 'features/shop/screens/menu/menu.dart';
 
 class NavigationMenu extends StatelessWidget {
   const NavigationMenu({super.key});
@@ -44,7 +46,7 @@ class NavigationController extends GetxController {
   final  screens = [
     const HomeScreen(),
     const MenuScreen(),
-    Container(color: Colors.purple),
-    Container(color: Colors.orange),
+    const FavouriteScreen(),
+    const SettingsScreen(),
   ];
 }

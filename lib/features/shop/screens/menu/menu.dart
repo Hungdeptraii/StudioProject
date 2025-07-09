@@ -3,7 +3,7 @@ import 'package:cmc_store/common/widgets/custom_shapes/containers/search_contain
 import 'package:cmc_store/common/widgets/layouts/grid_layout.dart';
 import 'package:cmc_store/common/widgets/products/cart/cart_menu_icon.dart';
 import 'package:cmc_store/common/widgets/texts/section_heading.dart';
-import 'package:cmc_store/features/shop/screens/store/widgets/category_tab.dart';
+import 'package:cmc_store/features/shop/screens/menu/widgets/category_tab.dart';
 import 'package:cmc_store/utils/constants/sizes.dart';
 import 'package:cmc_store/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';

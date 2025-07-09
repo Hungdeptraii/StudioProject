@@ -17,27 +17,18 @@ class CPrimaryHeaderContainer extends StatelessWidget {
     return CCurvedEdgeWidget(
       child: Container(
         color: CColors.primary,
-        padding: const EdgeInsets.all(0),
-        child: SizedBox(
-          height: 400,
-          child: Stack(
-            children: [
-              // Các vòng tròn background
-              Positioned(
-                top: -150,
-                right: -250,
-                child: CCirculatorContainer(
-                  backgroundColor: CColors.textWhite.withOpacity(0.1))),
-              Positioned(
-                top: 100,
-                right: -300,
-                child: CCirculatorContainer(
-                  backgroundColor: CColors.textWhite.withOpacity(0.1))),
-              child,
-            ],
-          ),
+
+
+        child: Stack(
+          children: [
+
+            Positioned(top: -150, right: -250, child: CCirculatorContainer(backgroundColor: CColors.textWhite.withOpacity(0.1))),
+            Positioned(top: 100, right: -300, child: CCirculatorContainer(backgroundColor: CColors.textWhite.withOpacity(0.1))),
+            child,
+
+          ],
         ),
-      ),
+      )
     );
   }
 }

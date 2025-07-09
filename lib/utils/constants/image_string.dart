@@ -20,6 +20,8 @@ class CImages {
   static const String deliveredEmailIllustration = "assets/images/animations/Animation - 1751436896370.gif";
   static const String verifyIllustration = "";
 
+  //profile
+  static const String user = "assets/images/user/pngwing.com.png";
 
   //categories
   static const String burgerIcon ="assets/icons/categories/icons8-burger-94.png";

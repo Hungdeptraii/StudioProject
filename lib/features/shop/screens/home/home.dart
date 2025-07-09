@@ -32,7 +32,7 @@ class HomeScreen extends StatelessWidget {
                     ///-Searchbar
                     const CSearchContainer(text: 'Tìm kiếm'),
                     const SizedBox(height: CSizes.spaceBtwSections),
-                    
+
                     ///Categories ---
                     Padding(padding: EdgeInsets.only(left: CSizes.defaultSpace),
                       child: Column(
@@ -40,13 +40,14 @@ class HomeScreen extends StatelessWidget {
 
                           ///Heading
                           CSectionHeading(title: 'Danh mục', showActionButton: false),
-                          const SizedBox(height: CSizes.spaceBtwItems),
+                          SizedBox(height: CSizes.spaceBtwItems),
 
                           ///Categories
                           CHomeCategories(),
                         ],
                       ),
                     ),
+                    const SizedBox(height: CSizes.spaceBtwSections),
                   ],
                 ) ,
             ),
@@ -58,15 +59,14 @@ class HomeScreen extends StatelessWidget {
                   children: [
                     CPromoSlider(banners: [CImages.promoBanner1, CImages.promoBanner2, CImages.promoBanner3]),
                     SizedBox(height: CSizes.spaceBtwSections),
-                    
+
                     CSectionHeading(title: 'Sản phẩm nổi bật', onPressed: (){}),
                     const SizedBox(height: CSizes.spaceBtwItems),
-                    
+
                     CGridLayout(itemCount: 4, itemBuilder: (_, index) => const CProductCardVertical()),
                   ],
                 )
             ),
-        
           ],
         ),
       ),
