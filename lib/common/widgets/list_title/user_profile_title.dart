@@ -7,8 +7,9 @@ import '../images/c_circlar_image.dart';
 
 class CUserProfileTitle extends StatelessWidget {
   const CUserProfileTitle({
-    super.key,
+    super.key, required this.onPressed,
   });
+  final VoidCallback onPressed;
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +17,7 @@ class CUserProfileTitle extends StatelessWidget {
       leading: CCircularImage(image: CImages.user, width: 50, height: 50, padding: 0),
       title: Text('Trần Ngọc Hùng', style: Theme.of(context).textTheme.headlineSmall!.apply(color: CColors.white)),
       subtitle: Text('ngchung@gmail.com', style: Theme.of(context).textTheme.bodyMedium!.apply(color: CColors.white)),
-      trailing: IconButton(onPressed: (){}, icon: const Icon(Iconsax.edit, color: CColors.white)),
+      trailing: IconButton(onPressed: onPressed, icon: const Icon(Iconsax.edit, color: CColors.white)),
     );
   }
 }

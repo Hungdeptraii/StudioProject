@@ -4,10 +4,12 @@ import 'package:cmc_store/common/widgets/list_title/settings_menu_titile.dart';
 import 'package:cmc_store/common/widgets/texts/section_heading.dart';
 import 'package:cmc_store/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 import '../../../../common/widgets/list_title/user_profile_title.dart';
 import '../../../../utils/constants/sizes.dart';
+import '../profile/profile.dart';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
@@ -24,7 +26,7 @@ class SettingsScreen extends StatelessWidget {
                   children: [
                     CAppBar(title: Text('Tài Khoản' , style: Theme.of(context).textTheme.headlineMedium!.apply(color: CColors.white))),
 
-                    CUserProfileTitle(),
+                    CUserProfileTitle(onPressed: () => Get.to(() => const ProfileScreen())),
                     const SizedBox(height: CSizes.spaceBtwSections),
               ],
             ),
