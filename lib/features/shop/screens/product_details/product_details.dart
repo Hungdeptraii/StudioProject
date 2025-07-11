@@ -7,8 +7,11 @@ import 'package:cmc_store/features/shop/screens/product_details/widgets/rating_s
 import 'package:cmc_store/utils/constants/sizes.dart';
 import 'package:cmc_store/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:readmore/readmore.dart';
+
+import '../product_reviews/product_reviews.dart';
 
 
 
@@ -63,7 +66,7 @@ class ProductDetailScreen extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         const CSectionHeading(title: 'Nhận xét(99)',showActionButton: false)  ,
-                        IconButton(icon: const Icon(Iconsax.arrow_right_3,size: 18), onPressed: () {}),
+                        IconButton(icon: const Icon(Iconsax.arrow_right_3,size: 18), onPressed: () => Get.to(() => const ProductReviewsScreen())),
                       ],
                     ),
                     const SizedBox(height: CSizes.spaceBtwSections),
