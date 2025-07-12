@@ -17,6 +17,7 @@ class CRoundedImage extends StatelessWidget {
     this.backgroundColor,
     this.isNetworkImage = false,
     this.borderRadius = CSizes.md,
+    this.borderColor,
   });
 
   final double? width, height;
@@ -29,6 +30,7 @@ class CRoundedImage extends StatelessWidget {
   final bool isNetworkImage;
   final VoidCallback? onPressed;
   final double borderRadius;
+  final Color? borderColor;
 
   @override
   Widget build(BuildContext context) {
