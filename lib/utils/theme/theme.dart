@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:cmc_store/utils/theme/custom_themes/text_theme.dart';
+import 'package:cmc_food/utils/theme/custom_themes/text_theme.dart';
 
-import 'package:cmc_store/utils/theme/custom_themes/elevated_button_theme.dart';
-import 'package:cmc_store/utils/theme/custom_themes/appbar_theme.dart';
-import 'package:cmc_store/utils/theme/custom_themes/bottom_sheet_theme.dart';
-import 'package:cmc_store/utils/theme/custom_themes/checkbox_theme.dart';
-import 'package:cmc_store/utils/theme/custom_themes/chip_theme.dart';
-import 'package:cmc_store/utils/theme/custom_themes/outlined_button_theme.dart';
-import 'package:cmc_store/utils/theme/custom_themes/text_field.theme.dart';
+import 'package:cmc_food/utils/theme/custom_themes/elevated_button_theme.dart';
+import 'package:cmc_food/utils/theme/custom_themes/appbar_theme.dart';
+import 'package:cmc_food/utils/theme/custom_themes/bottom_sheet_theme.dart';
+import 'package:cmc_food/utils/theme/custom_themes/checkbox_theme.dart';
+import 'package:cmc_food/utils/theme/custom_themes/chip_theme.dart';
+import 'package:cmc_food/utils/theme/custom_themes/outlined_button_theme.dart';
+import 'package:cmc_food/utils/theme/custom_themes/text_field.theme.dart';
 
 
 class CAppTheme {

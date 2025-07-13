@@ -1,4 +1,4 @@
-import 'package:cmc_store/features/authentication/screens/login/login.dart';
+import 'package:cmc_food/features/authentication/screens/login/login.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

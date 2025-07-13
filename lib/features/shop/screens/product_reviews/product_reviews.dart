@@ -1,14 +1,10 @@
-import 'package:cmc_store/common/widgets/appbar/appbar.dart';
-import 'package:cmc_store/features/shop/screens/product_reviews/widgets/progress_indicator_and_rating.dart';
-import 'package:cmc_store/features/shop/screens/product_reviews/widgets/rating_progress_indicator.dart';
-import 'package:cmc_store/features/shop/screens/product_reviews/widgets/user_review_card.dart';
-import 'package:cmc_store/utils/device/device_utility.dart';
+import 'package:cmc_food/common/widgets/appbar/appbar.dart';
+import 'package:cmc_food/features/shop/screens/product_reviews/widgets/rating_progress_indicator.dart';
+import 'package:cmc_food/features/shop/screens/product_reviews/widgets/user_review_card.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:iconsax/iconsax.dart';
+
 
 import '../../../../common/widgets/products/ratings/rating_indicator.dart';
-import '../../../../utils/constants/colors.dart';
 import '../../../../utils/constants/sizes.dart';
 
 class ProductReviewsScreen extends StatelessWidget {

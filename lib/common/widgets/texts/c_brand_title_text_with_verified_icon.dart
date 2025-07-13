@@ -1,4 +1,4 @@
-import 'package:cmc_store/utils/constants/enums.dart';
+import 'package:cmc_food/utils/constants/enums.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 

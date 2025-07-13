@@ -1,4 +1,4 @@
-import 'package:cmc_store/common/widgets/texts/section_heading.dart';
+import 'package:cmc_food/common/widgets/texts/section_heading.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../../utils/constants/sizes.dart';

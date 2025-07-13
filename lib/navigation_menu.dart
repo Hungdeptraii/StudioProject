@@ -1,8 +1,8 @@
-import 'package:cmc_store/features/personalization/screen/settings/settings.dart';
-import 'package:cmc_store/features/shop/screens/home/home.dart';
-import 'package:cmc_store/features/shop/screens/wishlist/wishlist.dart';
-import 'package:cmc_store/utils/constants/colors.dart';
-import 'package:cmc_store/utils/helpers/helper_functions.dart';
+import 'package:cmc_food/features/personalization/screen/settings/settings.dart';
+import 'package:cmc_food/features/shop/screens/home/home.dart';
+import 'package:cmc_food/features/shop/screens/wishlist/wishlist.dart';
+import 'package:cmc_food/utils/constants/colors.dart';
+import 'package:cmc_food/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';

@@ -1,4 +1,4 @@
-import 'package:cmc_store/features/authentication/controllers/onboarding/onboarding_controller.dart';
+import 'package:cmc_food/features/authentication/controllers/onboarding/onboarding_controller.dart';
 import 'package:flutter/material.dart';
 
 

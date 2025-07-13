@@ -1,4 +1,4 @@
-import 'package:cmc_store/features/shop/screens/cart/cart.dart';
+import 'package:cmc_food/features/shop/screens/cart/cart.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';

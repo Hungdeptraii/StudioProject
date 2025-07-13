@@ -1,6 +1,6 @@
-import 'package:cmc_store/features/authentication/screens/onboarding/onboarding.dart';
+import 'package:cmc_food/features/authentication/screens/onboarding/onboarding.dart';
 import 'package:flutter/material.dart';
-import 'package:cmc_store/utils/theme/theme.dart';
+import 'package:cmc_food/utils/theme/theme.dart';
 import 'package:get/get.dart';
 
 

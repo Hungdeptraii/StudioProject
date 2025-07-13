@@ -1,4 +1,4 @@
-import 'package:cmc_store/common/styles/spacing_styles.dart';
+import 'package:cmc_food/common/styles/spacing_styles.dart';
 
 import 'package:flutter/material.dart';
 

@@ -1,6 +1,6 @@
-import 'package:cmc_store/common/widgets/custom_shapes/containers/rounded_container.dart';
-import 'package:cmc_store/common/widgets/products/ratings/rating_indicator.dart';
-import 'package:cmc_store/utils/helpers/helper_functions.dart';
+import 'package:cmc_food/common/widgets/custom_shapes/containers/rounded_container.dart';
+import 'package:cmc_food/common/widgets/products/ratings/rating_indicator.dart';
+import 'package:cmc_food/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:readmore/readmore.dart';
 

@@ -1,10 +1,10 @@
-import 'package:cmc_store/common/widgets/appbar/appbar.dart';
-import 'package:cmc_store/common/widgets/custom_shapes/containers/primary_header_container.dart';
-import 'package:cmc_store/common/widgets/list_title/settings_menu_titile.dart';
-import 'package:cmc_store/common/widgets/texts/section_heading.dart';
-import 'package:cmc_store/features/personalization/screen/address/address.dart';
-import 'package:cmc_store/features/shop/screens/order/order.dart';
-import 'package:cmc_store/utils/constants/colors.dart';
+import 'package:cmc_food/common/widgets/appbar/appbar.dart';
+import 'package:cmc_food/common/widgets/custom_shapes/containers/primary_header_container.dart';
+import 'package:cmc_food/common/widgets/list_title/settings_menu_titile.dart';
+import 'package:cmc_food/common/widgets/texts/section_heading.dart';
+import 'package:cmc_food/features/personalization/screen/address/address.dart';
+import 'package:cmc_food/features/shop/screens/order/order.dart';
+import 'package:cmc_food/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';

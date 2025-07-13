@@ -1,7 +1,7 @@
-import 'package:cmc_store/common/widgets/icons/c_circular_icon.dart';
-import 'package:cmc_store/utils/constants/colors.dart';
-import 'package:cmc_store/utils/constants/sizes.dart';
-import 'package:cmc_store/utils/helpers/helper_functions.dart';
+import 'package:cmc_food/common/widgets/icons/c_circular_icon.dart';
+import 'package:cmc_food/utils/constants/colors.dart';
+import 'package:cmc_food/utils/constants/sizes.dart';
+import 'package:cmc_food/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 

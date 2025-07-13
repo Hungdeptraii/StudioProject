@@ -1,7 +1,7 @@
 
-import 'package:cmc_store/features/shop/screens/cart/widgets/cart_items.dart';
-import 'package:cmc_store/features/shop/screens/checkout/checkout.dart';
-import 'package:cmc_store/utils/constants/sizes.dart';
+import 'package:cmc_food/features/shop/screens/cart/widgets/cart_items.dart';
+import 'package:cmc_food/features/shop/screens/checkout/checkout.dart';
+import 'package:cmc_food/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

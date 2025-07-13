@@ -1,7 +1,7 @@
- import 'package:cmc_store/common/widgets/appbar/appbar.dart';
-import 'package:cmc_store/features/personalization/screen/address/add_new_address.dart';
-import 'package:cmc_store/features/personalization/screen/address/widgets/single_address.dart';
-import 'package:cmc_store/utils/constants/colors.dart';
+ import 'package:cmc_food/common/widgets/appbar/appbar.dart';
+import 'package:cmc_food/features/personalization/screen/address/add_new_address.dart';
+import 'package:cmc_food/features/personalization/screen/address/widgets/single_address.dart';
+import 'package:cmc_food/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';

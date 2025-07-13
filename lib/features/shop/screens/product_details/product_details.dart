@@ -1,11 +1,11 @@
 
-import 'package:cmc_store/common/widgets/texts/section_heading.dart';
-import 'package:cmc_store/features/shop/screens/product_details/widgets/bottom_add_to_cart_widget.dart';
-import 'package:cmc_store/features/shop/screens/product_details/widgets/product_detail_image.dart';
-import 'package:cmc_store/features/shop/screens/product_details/widgets/product_meta_data.dart';
-import 'package:cmc_store/features/shop/screens/product_details/widgets/rating_share_widget.dart';
-import 'package:cmc_store/utils/constants/sizes.dart';
-import 'package:cmc_store/utils/helpers/helper_functions.dart';
+import 'package:cmc_food/common/widgets/texts/section_heading.dart';
+import 'package:cmc_food/features/shop/screens/product_details/widgets/bottom_add_to_cart_widget.dart';
+import 'package:cmc_food/features/shop/screens/product_details/widgets/product_detail_image.dart';
+import 'package:cmc_food/features/shop/screens/product_details/widgets/product_meta_data.dart';
+import 'package:cmc_food/features/shop/screens/product_details/widgets/rating_share_widget.dart';
+import 'package:cmc_food/utils/constants/sizes.dart';
+import 'package:cmc_food/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';

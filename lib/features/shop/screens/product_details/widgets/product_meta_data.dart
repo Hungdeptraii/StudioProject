@@ -1,8 +1,8 @@
-import 'package:cmc_store/common/widgets/custom_shapes/containers/rounded_container.dart';
-import 'package:cmc_store/common/widgets/images/c_circlar_image.dart';
-import 'package:cmc_store/common/widgets/texts/c_brand_title_text_with_verified_icon.dart';
-import 'package:cmc_store/common/widgets/texts/product_price_text.dart';
-import 'package:cmc_store/common/widgets/texts/product_title_text.dart';
+import 'package:cmc_food/common/widgets/custom_shapes/containers/rounded_container.dart';
+import 'package:cmc_food/common/widgets/images/c_circlar_image.dart';
+import 'package:cmc_food/common/widgets/texts/c_brand_title_text_with_verified_icon.dart';
+import 'package:cmc_food/common/widgets/texts/product_price_text.dart';
+import 'package:cmc_food/common/widgets/texts/product_title_text.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../../utils/constants/colors.dart';

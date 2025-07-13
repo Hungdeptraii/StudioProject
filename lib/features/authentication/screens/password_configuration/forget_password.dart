@@ -1,4 +1,4 @@
-import 'package:cmc_store/features/authentication/screens/password_configuration/reset_password.dart';
+import 'package:cmc_food/features/authentication/screens/password_configuration/reset_password.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';

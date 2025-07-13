@@ -1,4 +1,4 @@
-import 'package:cmc_store/utils/helpers/helper_functions.dart';
+import 'package:cmc_food/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 
 import '../../../utils/constants/colors.dart';

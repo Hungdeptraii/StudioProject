@@ -1,14 +1,14 @@
-import 'package:cmc_store/common/widgets/appbar/appbar.dart';
-import 'package:cmc_store/common/widgets/custom_shapes/containers/rounded_container.dart';
-import 'package:cmc_store/common/widgets/success_screen/success_screen.dart';
-import 'package:cmc_store/features/shop/screens/cart/widgets/cart_items.dart';
-import 'package:cmc_store/features/shop/screens/checkout/widgets/billing_address_section.dart';
-import 'package:cmc_store/features/shop/screens/checkout/widgets/billing_amount_section.dart';
-import 'package:cmc_store/features/shop/screens/checkout/widgets/billing_payment_section.dart';
-import 'package:cmc_store/navigation_menu.dart';
-import 'package:cmc_store/utils/constants/image_string.dart';
-import 'package:cmc_store/utils/constants/sizes.dart';
-import 'package:cmc_store/utils/helpers/helper_functions.dart';
+import 'package:cmc_food/common/widgets/appbar/appbar.dart';
+import 'package:cmc_food/common/widgets/custom_shapes/containers/rounded_container.dart';
+import 'package:cmc_food/common/widgets/success_screen/success_screen.dart';
+import 'package:cmc_food/features/shop/screens/cart/widgets/cart_items.dart';
+import 'package:cmc_food/features/shop/screens/checkout/widgets/billing_address_section.dart';
+import 'package:cmc_food/features/shop/screens/checkout/widgets/billing_amount_section.dart';
+import 'package:cmc_food/features/shop/screens/checkout/widgets/billing_payment_section.dart';
+import 'package:cmc_food/navigation_menu.dart';
+import 'package:cmc_food/utils/constants/image_string.dart';
+import 'package:cmc_food/utils/constants/sizes.dart';
+import 'package:cmc_food/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

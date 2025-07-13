@@ -1,7 +1,7 @@
 
-import 'package:cmc_store/common/widgets/products/products_cards/product_card_vertical.dart';
-import 'package:cmc_store/features/shop/screens/all_products/all_products.dart';
-import 'package:cmc_store/utils/constants/image_string.dart';
+import 'package:cmc_food/common/widgets/products/products_cards/product_card_vertical.dart';
+import 'package:cmc_food/features/shop/screens/all_products/all_products.dart';
+import 'package:cmc_food/utils/constants/image_string.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

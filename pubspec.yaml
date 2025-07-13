@@ -1,4 +1,4 @@
-name: cmc_store
+name: cmc_food
 description: "A new Flutter project."
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -31,6 +31,10 @@ dependencies:
   readmore: ^2.2.0
   flutter_rating_bar: ^4.0.1
   firebase_core: ^2.23.0
+  image_picker: ^0.8.4+11
+
+  cloudinary_flutter: ^1.0.0
+  cloudinary_url_gen: ^1.0.0
 
 dev_dependencies:
   flutter_test:

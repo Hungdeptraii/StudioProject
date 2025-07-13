@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'package:cmc_store/common/widgets/products/cart/add_remove_button.dart';
-import 'package:cmc_store/common/widgets/products/cart/cart_item.dart';
-import 'package:cmc_store/common/widgets/texts/product_price_text.dart';
-import 'package:cmc_store/utils/constants/sizes.dart';
+import 'package:cmc_food/common/widgets/products/cart/add_remove_button.dart';
+import 'package:cmc_food/common/widgets/products/cart/cart_item.dart';
+import 'package:cmc_food/common/widgets/texts/product_price_text.dart';
+import 'package:cmc_food/utils/constants/sizes.dart';
 
 class CCartItems extends StatelessWidget {
   const CCartItems({super.key,  this.showAddRemoveButtons = true,});

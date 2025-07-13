@@ -1,26 +1,51 @@
 {
   "project_info": {
-    "project_number": "80028729182",
-    "project_id": "cmmc-6aad1",
-    "storage_bucket": "cmmc-6aad1.firebasestorage.app"
+    "project_number": "786194958283",
+    "project_id": "cmcfoood",
+    "storage_bucket": "cmcfoood.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:80028729182:android:a9b68b22fb295c7bc619cf",
+        "mobilesdk_app_id": "1:786194958283:android:38462b8bdcd16201b2984e",
         "android_client_info": {
           "package_name": "com.example.cmc_store"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "786194958283-k0rk5tuess2hja4kp3dqjvdbn3j3c5ph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cmc_store",
+            "certificate_hash": "09006715306e07a6ee4cd804e6c7f5697478e35c"
+          }
+        },
+        {
+          "client_id": "786194958283-0pegnomr4vt20vcgprgjmoabkl4mljm0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyBKbW0cj6bBd-ggDxjbvVyP0DzUDcHmhaY"
+          "current_key": "AIzaSyCXIvYaiLl1fNY3mF82W28TUaJm1vDcwDg"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786194958283-0pegnomr4vt20vcgprgjmoabkl4mljm0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "786194958283-ggijbm1tvusqipp82gsi227ekvgveu6p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cmcStore"
+              }
+            }
+          ]
         }
       }
     }

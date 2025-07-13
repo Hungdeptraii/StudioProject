@@ -1,5 +1,5 @@
-import 'package:cmc_store/common/widgets/appbar/appbar.dart';
-import 'package:cmc_store/features/shop/screens/order/widgets/order_list.dart';
+import 'package:cmc_food/common/widgets/appbar/appbar.dart';
+import 'package:cmc_food/features/shop/screens/order/widgets/order_list.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../utils/constants/sizes.dart';

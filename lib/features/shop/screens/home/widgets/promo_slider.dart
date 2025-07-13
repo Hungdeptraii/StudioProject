@@ -1,5 +1,5 @@
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:cmc_store/features/shop/controllers/home_controller.dart';
+import 'package:cmc_food/features/shop/controllers/home_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

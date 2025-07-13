@@ -1,4 +1,4 @@
-import 'package:cmc_store/features/shop/screens/product_reviews/widgets/progress_indicator_and_rating.dart';
+import 'package:cmc_food/features/shop/screens/product_reviews/widgets/progress_indicator_and_rating.dart';
 import 'package:flutter/material.dart';
 
 class COverallProductRating extends StatelessWidget {

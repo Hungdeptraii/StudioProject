@@ -1,4 +1,4 @@
-import 'package:cmc_store/common/widgets/appbar/appbar.dart';
+import 'package:cmc_food/common/widgets/appbar/appbar.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 

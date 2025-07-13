@@ -1,4 +1,4 @@
-import 'package:cmc_store/utils/constants/colors.dart';
+import 'package:cmc_food/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
 
 class CSettingsMenuTitle extends StatelessWidget {

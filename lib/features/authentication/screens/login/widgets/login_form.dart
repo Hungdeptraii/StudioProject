@@ -1,6 +1,6 @@
-import 'package:cmc_store/features/authentication/screens/password_configuration/forget_password.dart';
-import 'package:cmc_store/features/authentication/screens/signup/signup.dart';
-import 'package:cmc_store/navigation_menu.dart';
+import 'package:cmc_food/features/authentication/screens/password_configuration/forget_password.dart';
+import 'package:cmc_food/features/authentication/screens/signup/signup.dart';
+import 'package:cmc_food/navigation_menu.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';

@@ -1,7 +1,7 @@
-import 'package:cmc_store/common/widgets/appbar/appbar.dart';
-import 'package:cmc_store/common/widgets/icons/c_circular_icon.dart';
-import 'package:cmc_store/common/widgets/layouts/grid_layout.dart';
-import 'package:cmc_store/common/widgets/products/products_cards/product_card_vertical.dart';
+import 'package:cmc_food/common/widgets/appbar/appbar.dart';
+import 'package:cmc_food/common/widgets/icons/c_circular_icon.dart';
+import 'package:cmc_food/common/widgets/layouts/grid_layout.dart';
+import 'package:cmc_food/common/widgets/products/products_cards/product_card_vertical.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';

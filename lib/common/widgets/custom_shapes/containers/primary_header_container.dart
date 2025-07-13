@@ -1,5 +1,5 @@
-import 'package:cmc_store/common/widgets/custom_shapes/containers/circular_container.dart';
-import 'package:cmc_store/common/widgets/custom_shapes/curved_edges/curved_edges_widget.dart';
+import 'package:cmc_food/common/widgets/custom_shapes/containers/circular_container.dart';
+import 'package:cmc_food/common/widgets/custom_shapes/curved_edges/curved_edges_widget.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../utils/constants/colors.dart';
