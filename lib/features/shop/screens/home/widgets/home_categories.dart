@@ -13,7 +13,7 @@ class CHomeCategories extends StatelessWidget {
       height: 80,
       child: ListView.builder(
         shrinkWrap: true,
-        itemCount: 7,
+        itemCount: 4,
         scrollDirection: Axis.horizontal,
         itemBuilder: (_,index) {
           return CVerticalImageText(

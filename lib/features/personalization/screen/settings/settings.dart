@@ -3,6 +3,7 @@ import 'package:cmc_store/common/widgets/custom_shapes/containers/primary_header
 import 'package:cmc_store/common/widgets/list_title/settings_menu_titile.dart';
 import 'package:cmc_store/common/widgets/texts/section_heading.dart';
 import 'package:cmc_store/features/personalization/screen/address/address.dart';
+import 'package:cmc_store/features/shop/screens/order/order.dart';
 import 'package:cmc_store/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -44,7 +45,7 @@ class SettingsScreen extends StatelessWidget {
 
                   CSettingsMenuTitle(icon: Iconsax.safe_home, title: 'Địa chỉ' , subTitle: 'Thiết lập địa chỉ giao hàng', onTap: () => Get.to(() => UserAddressScreen())),
                   CSettingsMenuTitle(icon: Iconsax.shopping_cart, title: 'Giỏ hàng' , subTitle: 'Thêm,xóa sản phẩm và tiến hành thanh toán'),
-                  CSettingsMenuTitle(icon: Iconsax.bag_tick, title: 'Đơn hàng' , subTitle: 'Đơn hàng đang được xử lý và hoàn thành'),
+                  CSettingsMenuTitle(icon: Iconsax.bag_tick, title: 'Đơn hàng' , subTitle: 'Đơn hàng đang được xử lý và hoàn thành',onTap: () => Get.to(() => OrderScreen())),
                   CSettingsMenuTitle(icon: Iconsax.bank, title: 'Tài khoản ngân hàng' , subTitle: 'Rút số dư về tài khoản ngân hàng đã đăng ký'),
                   CSettingsMenuTitle(icon: Iconsax.discount_shape, title: 'Mã giảm giá của tôi' , subTitle: 'Danh sách tất cả các mã giảm giá'),
                   CSettingsMenuTitle(icon: Iconsax.notification, title: 'Thông báo' , subTitle: 'Thiết lập bất kỳ loại tin nhắn thông báo nào'),

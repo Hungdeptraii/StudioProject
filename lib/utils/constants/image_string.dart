@@ -37,5 +37,9 @@ class CImages {
   static const  String productImage2 = "assets/images/products/burger.jpg";
   static const  String productImage3 = "assets/images/products/img.png";
 
+  //payments
+  static const  String paypal = "assets/icons/payments_methods/paypal.png";
+  static const  String vnPay = "assets/icons/payments_methods/vnpay.png";
+
 
 }

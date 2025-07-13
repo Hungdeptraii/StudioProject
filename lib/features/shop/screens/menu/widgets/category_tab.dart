@@ -21,13 +21,12 @@ class CCategoryTab extends StatelessWidget {
             child: Column(
               children: [
                 CBrandShowcase(images: [CImages.productImage1,CImages.productImage2, CImages.productImage3]),
-                CBrandShowcase(images: [CImages.productImage1,CImages.productImage2, CImages.productImage3]),
                 const SizedBox(height: CSizes.spaceBtwItems),
 
-                CSectionHeading(title: 'Có thể bạn thích', showActionButton: true, onPressed: () {}),
+                CSectionHeading(title: 'Có thể bạn thích', showActionButton: false, onPressed: () {}),
                 const SizedBox(height: CSizes.spaceBtwItems),
 
-                CGridLayout(itemCount: 4, itemBuilder: (_, index) => CProductCardVertical()),
+                CGridLayout(itemCount: 6, itemBuilder: (_, index) => CProductCardVertical()),
                 const SizedBox(height: CSizes.spaceBtwSections),
               ],
             ),
